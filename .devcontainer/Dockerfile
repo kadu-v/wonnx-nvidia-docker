@@ -14,7 +14,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update &&\
     mesa-utils \
     libglib2.0-0
 
-
 # Install python and packages
 RUN apt-get update &&\
     apt-get install -y python3-pip

@@ -3,16 +3,11 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    // "dockerComposeFile": [
-    //     "./docker-compose.yml"
-    // ],
-    // "service": "vulkan-nvidia-docker",
     "runArgs": [
         "--runtime=nvidia",
         "--gpus",
         "all"
     ],
-    // "workspaceFolder": "/workspace",
     "remoteUser": "vscode",
     "customizations": {
         // Configure properties specific to VS Code.
